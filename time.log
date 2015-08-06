@@ -1,0 +1,30 @@
+version history:
+
+0.0.2:
+fixed a bug with ship name, ship can tell if it is sunk or not.
+
+0.0.1:
+initialized creation of files, added ship class
+
+aug 4: 130 pm
+created filed for battleship ai program
+the purpose of this program is to design a feed-forward neural network that will hopefully play better than the algorirthm played here
+
+http://www.datagenetics.com/blog/december32011/
+
+whose median game length is 42 shots over 10 million games.
+
+I want to explore these avenues
+1) How well does an artificial intelligence play with just the probability density function as implemented by datagenetics?
+2) how well does an artificial intelligence play with probability function as input and using weights to determine where to place the shot
+3) How well does an artifical intelligence learn if the inputs of the board are all at 1 (or a similar value?) Will it eventually converge on the probability density function?
+4) Can the artificial intelligence look ahead to determine the best possible location in the hopes of finding a ship faster? Implement this for functionalities 1 2 and 3 above.
+the time is now 155 pm
+
+233 pm
+worked on this for about 45 minutes.
+so far, have a map to ships by their type. still need to figure out how to get the name in there also, if it is necessary.
+
+8-6-15
+345 am
+fixed ship 
